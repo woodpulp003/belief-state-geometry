@@ -23,25 +23,4 @@ The notebook `activations_represent_belief_state_geometry.ipynb` contains:
 - Visualization of belief state geometry in the probability simplex
 - Comparison between random initialization and trained model representations
 
-## Usage
-
-1. Install dependencies: `pip install torch numpy matplotlib scikit-learn`
-2. Run the Jupyter notebook to reproduce the experiments
-3. The notebook saves plots showing the evolution of belief state geometry during training
-
-## Theory
-
-The work is grounded in computational mechanics and the theory of optimal prediction. The mixed-state presentation (MSP) formalism describes how optimal observers update their beliefs over hidden states given finite observations, leading to geometric structures that naturally correspond to neural network internal representations.
-
-## Citation
-
-If you use this code, please cite the original paper:
-
-```
-@article{shai2024transformers,
-  title={Transformers Represent Belief State Geometry in their Residual Stream},
-  author={Shai, Adam S. and Marzen, Sarah E. and Teixeira, Lucas and Oldenziel, Alexander Gietelink and Riechers, Paul M.},
-  journal={arXiv preprint arXiv:2405.15943},
-  year={2024}
-}
-```
+Checkpoint models already saved till 100k epoch training. If you wish to get more epochs/change architecture; run the entire notebook and change the hyperparameters.
